@@ -6,17 +6,20 @@ C++ 程序，包含**控制台版**和 **EasyX 图形界面版**，适合操作�
 
 ```
 os_memory_simulator/
-├── main.cpp                    # 控制台入口
-├── main_gui.cpp                # EasyX 图形界面入口
-├── dynamic_partition.h/.cpp    # 模块一：动态分区算法
-├── paging.h/.cpp               # 模块二：请求分页算法
-├── gui_helpers.h               # EasyX 公共绘图工具
-├── gui_dynamic.h/.cpp          # 动态分区可视化界面
-├── gui_paging.h/.cpp           # 请求分页可视化界面
+├── 源码/                       # 源代码目录
+│   ├── main.cpp                # 控制台入口
+│   ├── main_gui.cpp            # EasyX 图形界面入口
+│   ├── dynamic_partition.h/.cpp # 模块一：动态分区算法
+│   ├── paging.h/.cpp           # 模块二：请求分页算法
+│   ├── gui_helpers.h           # EasyX 公共绘图工具
+│   ├── gui_dynamic.h/.cpp      # 动态分区可视化界面
+│   └── gui_paging.h/.cpp       # 请求分页可视化界面
 ├── MemorySimulatorGui.sln      # VS 解决方案（图形版）
 ├── MemorySimulatorGui.vcxproj  # VS 项目文件
 ├── MemorySimulatorGui.exe      # 图形界面可执行文件（静态链接）
-└── MemorySimulatorGui.pdb      # 调试符号文件
+├── EasyXw.lib                 # EasyX 静态库
+├── README.md                   # 项目说明文档
+└── 操作系统内存管理模拟器项目设计文档.docx  # 项目设计文档
 ```
 
 ---
